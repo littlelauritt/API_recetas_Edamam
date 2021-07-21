@@ -152,24 +152,24 @@ footer{
     display: none;
 }
 /* MEDIAQUERIES */
-@media screen and(max-width: 1020px){
-    .item{
-        font-size: 40%;
+@media screen and (max-width: 1020px){
+    .item {
+        max-width: 40%;
     }
 }
-@media screen and(max-width: 750px){
-    html{
-        max-width: 75%;
+@media screen and (max-width: 750px){
+    html {
+        font-size: 75%;
     }
-    .resultado-busqueda{
+    .resultado-busqueda {
         flex-direction: column;
     }
-    .item{
+    .item {
         max-width: 100%;
     }
 }
-@media screen and(max-width: 450px){
-    html{
+@media screen and (max-width: 450px){
+    html {
         font-size: 50%;
     }
 }
